@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "nojumpdelay",
+  "version": "${version}",
+  "name": "Simple No Jump Delay",
+  "description": "Removes the jump cooldown/delay so you can jump immediately after landing.",
+  "authors": [{ "name": "Zvalz" }],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.njumpdelay.NoJumpDelay"]
+  },
+  "mixins": ["nojumpdelay.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.2",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
